@@ -2,8 +2,6 @@ from flask import Flask, render_template, jsonify
 import json
 
 app = Flask(__name__)
-
-
 # Sample Questions (can be loaded from a database or JSON file)
 questions = [
     {"question": "What is 2 + 2?", "options": ["3", "4", "5", "6"], "answer": "4"},
